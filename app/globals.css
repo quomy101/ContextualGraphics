@@ -7,3 +7,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: linear-gradient(#306cb9, #1e4372 12%, #081b35 50%);
+  background-repeat: no-repeat;
+}
