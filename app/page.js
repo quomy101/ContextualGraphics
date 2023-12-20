@@ -3,7 +3,7 @@ import reefImage from "../public/images/CoralReef_test.png";
 
 const Home = () => {
   return (
-    <main className="h-screen w-full">
+    <main className="h-screen">
       <section
         id="intro-section"
         className=" pt-20 z-0 relative h-full overflow-clip"
@@ -38,10 +38,10 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <Image
+        {/* <Image
           src={reefImage}
           className="z-10 absolute bottom-0 right-0 translate-x-14 translate-y-20"
-        />
+        /> */}
       </section>
     </main>
   );
